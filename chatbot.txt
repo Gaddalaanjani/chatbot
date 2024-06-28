@@ -1,6 +1,9 @@
 from nltk.chat.util import Chat,reflections
 pairs=[
         [r'hi',['hii']],
+        [r'hello',['how are you my friend']],
+        [r'how are you',['i am fine hoping u good']],
+        
 ]
 chat=Chat(pairs,reflections)
 chat.converse()
