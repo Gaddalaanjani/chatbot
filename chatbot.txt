@@ -1,0 +1,10 @@
+from nltk.chat.util import Chat,reflections
+pairs=[
+        [r'hi',['hii']],
+]
+chat=Chat(pairs,reflections)
+chat.converse()
+def quit1():
+      print("hi I am chatbot ask me something")
+if __name__=="__main__":
+  quit1()
